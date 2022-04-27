@@ -3,14 +3,7 @@
 
 body {
     margin: 0;
-    padding: 0;
-    position: fixed;
-     /*fixed es para que no haya scroll.*/
-     top: 0;
-     bottom: 0;
-     left: 0;
-     right: 0;
-    
+    padding: 0;   
     font: 700 30px "Roboto Mono", monospace;
      
 }
@@ -19,6 +12,7 @@ a{
     display: inline;
     color: black; 
 }
+
 header {
     width: 100%;
     height: 140px;
@@ -30,9 +24,6 @@ header .header-icons-container {
     height: 50px;
     display: grid;
     background-color: #40c7a3;
-}
-.icons a {
-    margin-left: 10px;
 }
 header .header-icons-container .icons {
     width: 300px;
@@ -98,15 +89,12 @@ nav .profile-link a {
 .home-main-button {
     width: 110px;
     height: 50px;
-    background-color: #40c6a3;
-    display: grid;
-    align-items: center;
-}
-.home-main-button {
+    background: #48cfad;
+    text-align: center;
     font-weight: 700;
     font-size: 18px;
+    line-height: 50px;
 }
-
 
 /*----------blogs.html---------*/
 
@@ -121,4 +109,24 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
+}
+.blogs-new-img-container {
+    grid-column: 1;
+}
+.blogs-new-img-container img {
+    width: 85%;
+}
+.blogs-news-info-container {
+    grid-column: 2;
+}
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+}
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #cdd2da;  
+    padding-bottom: 20px;
+    text-align: center;
 }
