@@ -12,6 +12,10 @@ a{
     display: inline;
     color: black; 
 }
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
 
 header {
     width: 100%;
@@ -121,6 +125,7 @@ nav .profile-link a {
 }
 .blogs-news-info-container p {
     margin-bottom: 35px;
+    font-size: 18px;
 }
 .blogs-posts-container {
     padding: 0 50px 40px;
@@ -163,4 +168,5 @@ footer {
 footer p {
     color: white;
     margin-top: 30px;
+    font-size: 12px;
 }
