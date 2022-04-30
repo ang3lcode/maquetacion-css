@@ -48,10 +48,10 @@ nav {
     grid-template-columns: 1fr 1fr;
     height: 80px;
 }
-nav .nav-log-container {
+nav .nav-logo-container {
     margin-left: 50px;
 }
-nav .nav-log-container img {
+nav .nav-logo-container img {
     width: 220px;
     margin-top: 10px;
 }
@@ -218,3 +218,7 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
+
+
+/*-----perfil------*/
+
