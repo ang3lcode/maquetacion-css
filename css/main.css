@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;   
     font: 700 30px "Roboto Mono", monospace;
+    font-size: 20px;
      
 }
 a{
@@ -192,4 +193,28 @@ footer p {
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 20px;
     font-size: 25px;
+}
+.contact-main-container {
+    width: 100%;
+    min-height: 25px;
+    background-color: #dfe3e9;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+.contact-main-container div  {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container img {
+    width: 100px;
 }
